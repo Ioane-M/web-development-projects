@@ -1,10 +1,10 @@
 # 🧸 ToyShop E-commerce React App
 
-This is a fully functional e-commerce web application for a toy shop built using **React.js**. It includes features such as category navigation, product listing, detailed product view, cart management, currency switching, and a multi-step checkout process.
+This is a  functional e-commerce only front-end web application for a toy shop built using **React.js**. It includes features such as category navigation, product listing, detailed product view, cart management, currency switching, and a multi-step checkout process.
 
 ---
 
-## 🚀 ## 🚀 Features
+ ##  Features
 
 ### 1. Navigation Bar
 - Links to categories: **All**, **Figures**, and **Plush**
@@ -55,18 +55,23 @@ This is a fully functional e-commerce web application for a toy shop built using
 
 
 ## 📸 Screenshots
+<img width="1897" height="864" alt="Screenshot 2025-07-23 171616" src="https://github.com/user-attachments/assets/b912df1b-0334-40d4-ad50-5a97575a09da" />
+<img width="1911" height="789" alt="Screenshot 2025-07-23 171629" src="https://github.com/user-attachments/assets/2d3dde25-6094-4db6-b757-79bb7f633837" />
+<img width="1915" height="867" alt="Screenshot 2025-07-23 171713" src="https://github.com/user-attachments/assets/c71f6744-63ba-42cd-b1e8-c995686d481e" />
+<img width="1915" height="857" alt="Screenshot 2025-07-23 171739" src="https://github.com/user-attachments/assets/9ea320da-0940-47d2-8755-6bf89a353cb1" />
+<img width="1896" height="859" alt="Screenshot 2025-07-23 171923" src="https://github.com/user-attachments/assets/0feba818-fc6d-4a4a-aa06-ecedb56f3431" />
+<img width="1901" height="867" alt="Screenshot 2025-07-23 171909" src="https://github.com/user-attachments/assets/48bd94b5-bfdc-4eb3-a5df-43f69c7a7f1a" />
+<img width="1896" height="686" alt="Screenshot 2025-07-23 171953" src="https://github.com/user-attachments/assets/df684c26-ef3d-42b9-b02c-c59200c49609" />
+<img width="1912" height="859" alt="Screenshot 2025-07-23 171645" src="https://github.com/user-attachments/assets/0eff61fb-feb8-4d7b-a42a-3f56f6917ee2" />
 
-> _Add screenshots of key pages here once uploaded._
+
+
 
 ---
 
 ## 🛠️ Installation & Setup
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/Ioane-M/web-development-projects/Toyshop-e-commerce-shop-frontend-project.git
-   cd Toyshop-e-commerce-shop-frontend-project
-
+Clone the repo:
 Install dependencies:
 npm install
 Run the app:
@@ -92,15 +97,6 @@ Context API for state management
 
 CSS Modules / SCSS (optional depending on your setup)
 
-📦 Folder Structure 
-src/
-│
-├── components/
-├── pages/
-├── context/
-├── assets/
-├── App.js
-└── index.js
 
 👤 Author
 Ioane Meparishvili
