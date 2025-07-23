@@ -1,0 +1,97 @@
+.shipping-page {
+  font-family: sans-serif;
+  background-color: #fefefe;
+  color: #333;
+}
+
+.shipping-container {
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.1);
+  border-radius: 10px;
+}
+
+.shipping-info-display h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #555555af;
+}
+
+.shipping-info-display p {
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 18px;
+  font-weight: 700;
+  color: #222;
+}
+
+.contact-info {
+  display: flex;
+  gap: 10px;
+}
+
+
+.section-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #111;
+  margin-bottom: 24px;
+  letter-spacing: 0.02em;
+}
+
+
+.shipping-method-options label {
+  background-color: #f7f9fa;
+  padding: 14px 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+  user-select: none;
+  font-size: 16px;
+  color: #2c3e50;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.shipping-method-options label:hover {
+  background-color: #ccdcea;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.back-button {
+  background: transparent;
+  color: #27ae60;
+  padding: 12px 26px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #27ae60;
+  color: white;
+}
+
+.continue-button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.continue-button:hover {
+  background-color: #1e8449;
+}

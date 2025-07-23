@@ -1,0 +1,127 @@
+.product-detail-page {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-images {
+  display: flex;
+  width: 60%;
+  gap: 20px;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.thumb-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.thumb-img:hover {
+  border-color: #5ece7b;
+  transform: scale(1.05);
+}
+
+.main-image img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  max-width: 40%;
+}
+
+.product-info h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+  font-family: Raleway;
+  color: #1D1F22;
+} 
+
+.product-info h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Raleway;
+  color: #1D1F22;
+  margin: 0;
+}
+strong{
+  font-family: Raleway;
+  color: #1D1F22;
+}
+.product-info p {
+  font-size: 24px;
+  line-height: 1.4;
+  font-family: Raleway;
+  color: #1D1F22;
+  margin: 0;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+.add-to-cart-btn {
+  background-color: #5ece7b;
+  color: white;
+  border: none;
+  padding: 14px 22px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-family: Raleway;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #4ab96c;
+}
+.size-select {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.size-options {
+  display: flex;
+  gap: 10px;
+}
+
+.size-btn {
+  width: 50px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-family: Raleway;
+  color: #1D1F22;
+}
+
+.size-btn.selected {
+  background-color: black;
+  color: white;
+}
